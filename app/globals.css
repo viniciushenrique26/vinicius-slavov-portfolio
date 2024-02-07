@@ -1,0 +1,58 @@
+@import url("https://use.typekit.net/nhw6xln.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.cursive {
+  font-family: "neue-haas-grotesk-text", sans-serif;
+}
+.Welcome-text {
+  background: rgb(154,192,250);
+background: linear-gradient(90deg, rgb(37, 106, 210) 18%, rgba(34,124,255,1) 66%);
+  background-blend-mode: normal, screen;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.Welcome-box {
+  isolation: isolate;
+  overflow: hidden;
+  align-items: center;
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border-radius: 32px;
+  box-shadow: inset 0 -7px 11px #a48fff1f;
+  display: flex;
+
+  position: relative;
+  width: -moz-max-content;
+  width: max-content;
+  transition: 0.45s cubic-bezier(0.6, 0.6, 0, 1) box-shadow;
+}
+
+.button-primary {
+  background: #146EF5;
+  box-shadow: inset 0 0 12px #bf97ff3d;
+}
+.button-primary:hover {
+  background: #023785;
+  box-shadow: inset 0 0 12px #bf97ff70; 
+  transition: .5s ease-in;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hidden {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
