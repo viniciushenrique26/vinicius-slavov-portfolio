@@ -10,7 +10,7 @@ const Projects = () => {
         <h1 className="text-7xl  text-stone-950 font-bold px-20 py-20">
           📚 Projetos.
         </h1>
-        <div className="h-full w-full grid gap-4 grid-cols-3 grid-rows-3 px-10"> 
+        <div className="h-full w-full grid gap-4  md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-1 px-10"> 
 
           <ProjectCard 
             url="https://www.behance.net/gallery/166731073/UXUI-Case-Study-RHINO-SAFE"
