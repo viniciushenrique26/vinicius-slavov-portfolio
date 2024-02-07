@@ -18,12 +18,12 @@ const ProjectCard = ({ src, title, description, url}: Props) => {
           alt={title}
           width={1000}
           height={1000}
-          className="z-10 h-full w-full object-cover overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70"
+          className="z-10 h-full w-full object-cover overflow-hidden rounded-xl hover:text-white opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-80"
           />
 
         <div className="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-105 cursor-pointer ">
           <h1 className="font-serif text-2xl font-bold text-black ">{title}</h1>
-          <h1 className="text-sm font-light text-gray-700">{description}</h1>
+          <h1 className="text-sm font-light text-black ">{description}</h1>
         </div>
       </a>
     </div>
