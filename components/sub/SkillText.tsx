@@ -18,7 +18,7 @@ const SkillText = () => {
         </motion.div>
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='text-4xl md:text-[100px] text-black font-bold mt-[10px] text-center mb-[5px]'
+        className='text-[40px] md:text-[100px] text-black font-bold mt-[10px] text-center mb-[5px]'
         >
             Planeje, codifique e encante
         </motion.div>
