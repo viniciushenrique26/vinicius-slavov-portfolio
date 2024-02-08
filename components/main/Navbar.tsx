@@ -12,7 +12,7 @@ const Navbar = () => {
         >
           <Image
             src="iconS.svg"
-            alt="logo"
+            alt="logo Vinicius Slavov"
             width={40}
             height={40}
             className="cursor-pointer hover:animate-slowspin ml-[10px] lg:hidden  md:block"
@@ -21,7 +21,7 @@ const Navbar = () => {
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
           <Image
             src="/name.svg"
-            alt="logo"
+            alt="Vinicius Slavov"
             width={200}
             height={200}
             className="cursor-pointer hover:animate-slowspin"
