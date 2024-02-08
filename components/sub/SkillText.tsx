@@ -18,13 +18,13 @@ const SkillText = () => {
         </motion.div>
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='text-[100px] text-black font-bold mt-[10px] text-center mb-[5px]'
+        className='text-4xl md:text-[100px] text-black font-bold mt-[10px] text-center mb-[5px]'
         >
             Planeje, codifique e encante
         </motion.div>
         <motion.div
         variants={slideInFromRight(0.5)}
-        className='cursive text-[20px] text-gray-800 mb-10 mt-[10px] text-center'
+        className='cursive text-1xl md:text-[20px] text-gray-800 mb-10 mt-[10px] text-center'
         >
             Tirando as suas melhores ideias do papel, com o que há de melhor no mercado.
         </motion.div>

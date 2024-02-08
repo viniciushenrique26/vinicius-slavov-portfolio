@@ -7,7 +7,7 @@ const Projects = () => {
         className="flex flex-col  justify-center py-2"
         id="projects"
       >
-        <h1 className="text-7xl  text-stone-950 font-bold px-20 py-20">
+        <h1 className=" text-4xl md:text-7xl  text-stone-950 font-bold px-10 md:px-20 py-10 md:py-20">
           📚 Projetos.
         </h1>
         <div className="h-full w-full grid gap-4  md:grid-cols-3 md:grid-rows-3 grid-cols-1 grid-rows-1 px-10"> 

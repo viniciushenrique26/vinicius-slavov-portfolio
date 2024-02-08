@@ -19,7 +19,7 @@ const Hero = () => {
         
           src="/background.png"
           alt="bg shapes" 
-          className=" absolute  left-0 z-[1] w-full h-ful object-cover"
+          className=" absolute  left-0 z-[1] w-full h-full object-cover"
           width={150} 
           height={100}
         /> 

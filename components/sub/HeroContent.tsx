@@ -16,7 +16,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
+      className="flex flex-row items-center justify-center px-10 md:px-20 mt-20 md:mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
         <motion.div
@@ -35,7 +35,7 @@ const HeroContent = () => {
         >
           <span>
             
-            <span className="text-black text-7xl bg-clip-text text-stone-950 ">
+            <span className="text-black text-4xl md:text-7xl bg-clip-text text-stone-950 ">
               {" "}
               Prazer em conhecer você.{" "}
             </span>
@@ -55,7 +55,7 @@ const HeroContent = () => {
 
       <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center hidden md:block"
       >
         <Image
           src="/mainIconsdark.svg"
