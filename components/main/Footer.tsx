@@ -22,7 +22,7 @@ const Footer = () => {
                 />  
                 <div className="min-w-[200px] h-auto flex flex-row gap-5 items-center justify-start"> 
                     <p className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"><a href="https://www.linkedin.com/in/vinicius-slavov-934737185/" target="_blank">Linkedin</a></p> 
-                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"><a href="https://www.behance.net/vinciushenrique6" target="_blank">Behance</a></p> 
+                    <p className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"><a href="https://www.behance.net/vinciusslavov" target="_blank">Behance</a></p> 
                     <p className="flex flex-row items-center my-[15px] cursor-pointer hover:underline"><a href="https://github.com/viniciushenrique26" target="_blank">Github</a></p> 
                 </div>
                 
